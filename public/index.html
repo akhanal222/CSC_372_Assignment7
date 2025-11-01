@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<!-- 
+Name: Ashirvad Khanal
+Date: 10.3.2025
+CSC 372-01
+This is the main HTML file that contains the structure of the web page. It includes buttons and input fields for fetching random jokes, 
+loading joke categories, searching jokes by category, and adding new jokes. The file also links to an external CSS file for styling and a 
+JavaScript file for handling user interactions and API requests.
+-->
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <h1>Random Joke</h1>
+
+    <button id="btn-random">Get Random Joke</button>
+
+    <p id="joke-category"></p>
+    <p id="random-joke"></p>
+    <p id="joke-delivery"></p>
+
+    <h2>Categories</h2>
+    <button id="load-categories">Load Categories</button>
+    <ul id="categories-list"></ul>
+    <div id="click-category"></div>
+
+
+    <h2>Jokes by Category</h2>
+    <input type="text" id="category-input" placeholder="Enter category name">
+    <input type="number" id="limit-input" placeholder="Limit (optional)">
+    <button id="search-category">Search</button>
+
+    <div id="category-jokes"></div>
+
+    <div class="table-container">
+
+        <form id="form-container">
+            <h1>Add New Joke </h1>
+            <h1>Enter details</h1>
+            <input type="text" placeholder="Enter Category" name="category" id="category" required>
+            <input type="text" placeholder="Enter Setup" name="setup" id="setup" required>
+            <input type="text" placeholder="Enter Delivery" name="delivery" id="delivery" required>
+            <button type="submit" id="add-joke" class="btn">Save</button>
+        </form>
+
+        <h1>Joke List By Category</h1>
+        <table id="joke-table">
+            <tr>
+                <th>Category</th>
+                <th>Setup</th>
+                <th>Delivery</th>
+            </tr>
+        </table>
+    </div>
+
+</body>
+
+</html>

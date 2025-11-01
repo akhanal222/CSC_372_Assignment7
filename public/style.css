@@ -1,0 +1,125 @@
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'comic sans ms', cursive, sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+button:hover {
+    background-color: #31ae8c;
+}
+
+#random-joke,#setup-punchline {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #363c8d;
+}
+
+#joke-delivery{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d99250;
+}
+
+body {
+    font-family: 'comic sans ms', cursive, sans-serif;
+    background-color: #c8edd1;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1,
+h2 {
+    /* color: #568dc5; */
+    color: #31ae8c;
+    text-align: center;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+ul {
+    color: #c77f3b;
+    text-align: center;
+
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 70%;
+    border-collapse: collapse;
+    margin: auto;
+    caption-side: top;
+    empty-cells: hide;
+    table-layout: auto;
+    color: #31ae8c;
+    font-size: large;
+}
+
+th,
+td {
+    padding: 15px;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+#joke-category{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #28a745;
+    text-decoration: underline solid black;
+}
+
+#category-input,
+#limit-input {
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 16px;
+    border: 2px solid white;
+    border-radius: 10px;
+    width: 200px;
+    font-family: 'comic sans ms', cursive, sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #28a745;
+
+}
+
+#form-container,#category,#delivery,#setup {
+    margin-top: 40px;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 10px;
+    width: 500px;
+    font-family: 'comic sans ms', cursive, sans-serif;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    color: #28a745;
+}
+
+
+p {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #d99250;
+    font-family: 'comic sans ms', cursive, sans-serif;
+}
